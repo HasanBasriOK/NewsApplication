@@ -1,0 +1,23 @@
+﻿@model NewsTypeAddViewModel
+@{
+    ViewBag.Title = "Yeni Kategori Tipi";
+}
+
+<h2>Yeni Kategori Tipi</h2>
+
+
+@using (Html.BeginForm("AddNewsType", "NewsType", FormMethod.Post))
+{
+    <input name="NewsType.NewsTypeId" value="@Model.NewsType.NewsTypeId" hidden />
+    <div class="form-group">
+        <input class="form-control" name="NewsType.NewsTypeName" value="@Model.NewsType.NewsTypeName" placeholder="Haber Tip Adını giriniz.." />
+    </div>
+    <div class="form-group">
+        <input class="form-control" name="NewsType.NewsTypeDescription" value="@Model.NewsType.NewsTypeDescription" placeholder="Haber Tipi Açıklamasını giriniz.." />
+    </div>
+    <div class="form-group">
+        <input id="btnKaydet" class="btn btn-success" type="submit" value="Kaydet" />
+    </div>
+
+    @Html.ActionLink("Listeye geri dön", "ListNewsType", "NewsType")
+}

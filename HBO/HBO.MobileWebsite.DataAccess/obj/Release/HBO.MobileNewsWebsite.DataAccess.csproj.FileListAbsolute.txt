@@ -1,0 +1,17 @@
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\HBO.MobileWebsite.DataAccess.dll.config
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\HBO.MobileWebsite.DataAccess.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\HBO.MobileWebsite.DataAccess.pdb
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\HBO.MobileWebsite.Entities.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\HBO.MobileWebsite.Entities.pdb
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileNewsWebsite.DataAccess.csprojAssemblyReference.cache
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileWebsite.DataAccess.Migrations.FirtMigration.resources
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileWebsite.DataAccess.Migrations.AddDisplayname.resources
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileNewsWebsite.DataAccess.csproj.GenerateResource.cache
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileNewsWebsite.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileNewsWebsite.DataAccess.csproj.CopyComplete
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileWebsite.DataAccess.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.DataAccess\obj\Release\HBO.MobileWebsite.DataAccess.pdb

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\newsapi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileNewsWebsite.WebApi.dll">
+      <publishTime>05/02/2019 23:19:25</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileNewsWebsite.WebApi.pdb">
+      <publishTime>05/02/2019 23:19:25</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.Business.dll">
+      <publishTime>05/02/2019 22:54:49</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.Business.pdb">
+      <publishTime>05/02/2019 22:54:49</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.DataAccess.dll">
+      <publishTime>05/02/2019 22:54:48</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.DataAccess.dll.config">
+      <publishTime>04/09/2019 16:51:52</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.DataAccess.pdb">
+      <publishTime>05/02/2019 22:54:48</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.Entities.dll">
+      <publishTime>05/01/2019 22:59:20</publishTime>
+    </File>
+    <File Include="bin/HBO.MobileWebsite.Entities.pdb">
+      <publishTime>05/01/2019 22:59:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/01/2019 22:51:56</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.DataAnnotations.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/01/2019 22:51:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/01/2019 22:51:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/01/2019 22:51:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/09/2019 17:05:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/01/2019 23:12:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

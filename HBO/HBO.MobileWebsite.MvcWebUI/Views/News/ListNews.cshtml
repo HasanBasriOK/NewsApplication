@@ -1,0 +1,80 @@
+﻿@model IEnumerable<News>
+@{
+    ViewBag.Title = "Haber Listesi";
+}
+
+<h2>Haber Listesi</h2>
+
+<p>
+    @Html.ActionLink("Yeni", "AddNews", "News")
+</p>
+
+<table class="table">
+    <tr>
+        <th style="display:none">
+            @Html.DisplayNameFor(model => model.NewsId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsImageUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsContent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsType.NewsTypeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsLikes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfDislikes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsViews)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsReleaseDate)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td style="display:none">
+            @Html.DisplayFor(modelItem => item.NewsId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsImageUrl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsContent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsType.NewsTypeId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsLikes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfDislikes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsViews)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewsReleaseDate)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "AddNews", new { id = item.NewsId }) |
+            @Html.ActionLink("Detay", "DetailsNews", new { id = item.NewsId }) |
+            @Html.ActionLink("Sil", "DeleteNews", new { id = item.NewsId })
+        </td>
+    </tr>
+    }
+
+</table>

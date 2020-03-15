@@ -1,0 +1,14 @@
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.Business.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.Business.pdb
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.DataAccess.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.Entities.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\EntityFramework.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.DataAccess.pdb
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.DataAccess.dll.config
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\HBO.MobileWebsite.Entities.pdb
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\bin\Release\EntityFramework.xml
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\obj\Release\HBO.MobileNewsWebsite.Business.csprojAssemblyReference.cache
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\obj\Release\HBO.MobileNewsWebsite.Business.csproj.CoreCompileInputs.cache
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\obj\Release\HBO.MobileNewsWebsite.Business.csproj.CopyComplete
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\obj\Release\HBO.MobileWebsite.Business.dll
+C:\Users\HBO\source\repos\HBO\HBO.MobileWebsite.Business\obj\Release\HBO.MobileWebsite.Business.pdb

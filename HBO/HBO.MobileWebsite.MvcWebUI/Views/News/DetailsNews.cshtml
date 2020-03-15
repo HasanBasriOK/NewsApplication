@@ -1,0 +1,39 @@
+﻿@model News
+@{
+    ViewBag.Title = "Haber Detayı";
+}
+
+<h2>Haber Detayı</h2>
+
+
+<div class="form-group" hidden>
+    @Html.DisplayNameFor(m => m.NewsId)
+    <br />
+    @Html.DisplayFor(m => m.NewsId)
+</div>
+
+<div class="form-group">
+    @Html.DisplayNameFor(m => m.NewsContent)
+    <br />
+    @Html.DisplayFor(m => m.NewsContent)
+</div>
+
+<div class="form-group">
+    @Html.DisplayNameFor(m => m.NewsImageUrl)
+    <br />
+    @Html.DisplayFor(m => m.NewsImageUrl)
+</div>
+
+<div class="form-group">
+    @Html.DisplayNameFor(m => m.NewsType.NewsTypeName)
+    <br />
+    @Html.DisplayFor(m => m.NewsType.NewsTypeName)
+</div>
+
+<div class="form-group">
+    @Html.DisplayNameFor(m => m.NewsTitle)
+    <br />
+    @Html.DisplayFor(m => m.NewsTitle)
+</div>
+
+@Html.ActionLink("Listeye geri dön", "ListNews", "News")

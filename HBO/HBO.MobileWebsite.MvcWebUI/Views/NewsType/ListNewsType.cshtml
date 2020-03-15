@@ -1,0 +1,47 @@
+﻿@model  IEnumerable<NewsType>
+@{
+    ViewBag.Title = "Haber Tip Listesi";
+}
+
+<h2>Haber Tip Listesi</h2>
+
+
+
+<p>
+    @Html.ActionLink("Yeni", "AddNewsType", "NewsType")
+</p>
+<table class="table">
+    <tr>
+        <th style="display:none">
+            @Html.DisplayNameFor(model => model.NewsTypeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsTypeDescription)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="display:none">
+                @Html.DisplayFor(modelItem => item.NewsTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NewsTypeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NewsTypeDescription)
+            </td>
+            <td>
+                @Html.ActionLink("Düzenle", "AddNewsType", new { id = item.NewsTypeId }) |
+                @Html.ActionLink("Detay", "NewsTypeDetails", new { id = item.NewsTypeId }) |
+                @Html.ActionLink("Sil", "DeleteNewsType", new { id = item.NewsTypeId })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,50 @@
+﻿@model NewsAddViewModel
+@{
+    ViewBag.Title = "Yeni Haber";
+}
+
+<h2>Yeni Haber</h2>
+
+@{
+    List<SelectListItem> newsTypeList = new List<SelectListItem>();
+    foreach (NewsType newsType in ViewBag.NewsTypes)
+    {
+        SelectListItem item = new SelectListItem();
+        item.Text = newsType.NewsTypeName;
+        item.Value = newsType.NewsTypeId.ToString();
+
+        newsTypeList.Add(item);
+    }
+}
+
+@using (Html.BeginForm("AddNews", "News", FormMethod.Post))
+{
+    <div>
+        <input name="News.NewsId" value="@Model.News.NewsId" hidden />
+    </div>
+
+    <div class="form-group">
+        <input class="form-control" name="News.NewsImageUrl" value="@Model.News.NewsImageUrl" placeholder="Haber Resim Url Giriniz.." />
+    </div>
+
+    <div class="form-group">
+        <input class="form-control" name="News.NewsTitle" value="@Model.News.NewsTitle" placeholder="Haber Başlığı Giriniz.." />
+    </div>
+
+    <div class="form-group">
+        <input class="form-control" name="News.NewsContent" value="@Model.News.NewsContent" placeholder="Haber İçeriğini Giriniz.." />
+    </div>
+
+    <div class="form-group">
+        @Html.DropDownListFor(x => x.News.NewsTypeId, newsTypeList, new { @class = "form-control" })
+    </div>
+
+
+    <div class="form-group">
+        <input class="btn btn-success" type="submit" value="Kaydet" />
+    </div>
+
+@Html.ActionLink("Listeye geri dön", "ListNews", "News")
+}
+
+
